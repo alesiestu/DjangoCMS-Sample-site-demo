@@ -129,16 +129,22 @@ INSTALLED_APPS = (
     'treebeard',
     'djangocms_text_ckeditor',
     'filer',
+    'mptt',
     'easy_thumbnails',
     'djangocms_column',
     'djangocms_file',
     'djangocms_link',
     'djangocms_picture',
-    'djangocms_style',
+#'djangocms_style',
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
-    'DjangoCms'
+    'DjangoCms',
+    'aldryn_style',
+    'aldryn_bootstrap3',
+
+
+
 )
 
 LANGUAGES = (
@@ -167,7 +173,8 @@ CMS_LANGUAGES = {
 CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
-    
+    ('home.html', 'Home'),
+
 )
 
 CMS_PERMISSION = True
