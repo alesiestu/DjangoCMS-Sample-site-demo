@@ -203,3 +203,39 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+
+CKEDITOR_SETTINGS = {
+
+    'stylesSet': [
+        {
+            'name': 'Page Header H1',
+            'element': 'h1',
+            'attributes': {
+                'class': 'page-header',
+            }
+        },
+        {
+            'name': 'Page Header H2',
+            'element': 'h2',
+            'attributes': {
+                'class': 'page-header',
+            }
+        },
+        {
+            'name': 'Page Header H3',
+            'element': 'h3',
+            'attributes': {
+                'class': 'page-header',
+            }
+        },
+        {
+            'name': 'Page Header H4',
+            'element': 'h4',
+            'attributes': {
+                'class': 'page-header',
+            }
+        },
+    ],
+
+}
